@@ -1,0 +1,108 @@
+.task-detail {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.task-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.btn-back {
+  background: none;
+  border: 1px solid #ccc;
+  padding: 0.4rem 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  color: #555;
+  font-size: 0.9rem;
+}
+
+.btn-back:hover {
+  background-color: #f0f0f0;
+}
+
+.task-titulo {
+  font-size: 1.8rem;
+  color: #2c3e50;
+  margin-bottom: 1.5rem;
+}
+
+.task-meta {
+  display: flex;
+  gap: 2rem;
+  background: white;
+  padding: 1.2rem 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+  margin-bottom: 1.5rem;
+}
+
+.meta-item {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.meta-label {
+  font-size: 0.75rem;
+  color: #888;
+  text-transform: uppercase;
+}
+
+.meta-valor {
+  font-size: 0.9rem;
+  color: #2c3e50;
+}
+
+.badge {
+  font-size: 0.8rem;
+  padding: 0.2rem 0.7rem;
+  border-radius: 20px;
+  font-weight: bold;
+}
+
+.badge.progreso   { background: #d6eaf8; color: #2980b9; }
+.badge.pendiente  { background: #fdebd0; color: #e67e22; }
+.badge.completado { background: #d5f5e3; color: #27ae60; }
+.badge.alta       { background: #fadbd8; color: #e74c3c; }
+
+.task-descripcion,
+.task-comentarios {
+  background: white;
+  padding: 1.2rem 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+  margin-bottom: 1.5rem;
+}
+
+.task-descripcion h3,
+.task-comentarios h3 {
+  margin-bottom: 0.75rem;
+  color: #2c3e50;
+  font-size: 1rem;
+}
+
+.task-descripcion p {
+  color: #555;
+  line-height: 1.6;
+}
+
+.comentario {
+  border-left: 3px solid #3498db;
+  padding-left: 1rem;
+}
+
+.comentario-autor {
+  font-weight: bold;
+  font-size: 0.85rem;
+  color: #2980b9;
+}
+
+.comentario p {
+  margin-top: 0.3rem;
+  color: #555;
+  font-size: 0.9rem;
+}
